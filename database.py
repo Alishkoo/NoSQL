@@ -121,9 +121,3 @@ class Database:
         return table_names
     
 
-
-# Создание базы данных
-a = Database("Firstdb")
-
-# Создание таблицы
-a.create_table("example")
